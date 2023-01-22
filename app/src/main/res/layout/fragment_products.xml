@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.ProductsFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+            <include layout="@layout/shimmer_placeholder" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:listitem="@layout/layout_item_product" />
+</androidx.constraintlayout.widget.ConstraintLayout>

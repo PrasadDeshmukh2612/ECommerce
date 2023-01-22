@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ECommerce App</string>
+    <string name="banner_title">Click here to join us to get more rewards</string>
+    <string name="thank_you_text">Thank you for joining our rewards program</string>
+    <string name="description">Description</string>
+    <string name="products">Products</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="rupee">\u20B9 %s</string>
+    <string name="firstname_lastname">%s %s</string>
+    <string name="dob">Date Of Bith</string>
+    <string name="address">Address</string>
+    <string name="points_earned">Points Earned</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="logout">Logout</string>
+    <string name="username_error_messge">Please enter username</string>
+    <string name="password_error_messge">Please enter password</string>
+    <string name="error">Invalid username or password</string>
+    <string name="successfully_logged_in">Logged in successfully</string>
+    <string name="description_details">Description : \n%s</string>
+    <string name="internet_not_connected">Internet is not connected</string>
+</resources>
